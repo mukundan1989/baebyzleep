@@ -34,7 +34,7 @@ def main():
     if page == "Home":
         st.header("Welcome to Baby Sleep Coach!")
         st.write("This app helps you track your baby's sleep patterns, create personalized sleep plans, and log developmental milestones.")
-        st.image("https://via.placeholder.com/800x400.png?text=Sleep+Coach+App", use_column_width=True)
+        st.image("https://via.placeholder.com/800x400.png?text=Sleep+Coach+App", use_container_width=True)
 
     elif page == "Sleep Tracker":
         st.header("Sleep Tracker")
